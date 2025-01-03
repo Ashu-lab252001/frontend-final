@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://backend-final-delta-lyart.vercel.app/', // Replace with your backend's Vercel URL
+  baseURL: 'https://backend-final-delta-lyart.vercel.app', // Replace with your backend's Vercel URL
   headers: {
     'Content-Type': 'application/json',
   },
