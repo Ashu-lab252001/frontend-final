@@ -1,0 +1,121 @@
+.UserProfile__page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.UserProfile__container {
+  width: 90%;
+  max-width: 400px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.UserProfile__header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.UserProfile__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserProfile__formGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.UserProfile__formGroup:hover {
+  background-color: #3a3a3a;
+}
+
+.UserProfile__formGroup svg {
+  margin-right: 10px;
+  color: #bbb;
+}
+
+.UserProfile__formGroup input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #ffffff;
+  flex-grow: 1;
+}
+
+.UserProfile__formGroup input::placeholder {
+  color: #bbb;
+}
+
+.UserProfile__updateBtn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2979ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.UserProfile__updateBtn:hover {
+  background-color: #1565c0;
+}
+
+.UserProfile__backToFormsBtn,
+.UserProfile__backToWorkspaceBtn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #424242;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.UserProfile__backToFormsBtn:hover,
+.UserProfile__backToWorkspaceBtn:hover {
+  background-color: #616161;
+}
+
+.UserProfile__logoutBtn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background-color: #e53935;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.UserProfile__logoutBtn:hover {
+  background-color: #b71c1c;
+}
+
+.UserProfile__loading {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+}

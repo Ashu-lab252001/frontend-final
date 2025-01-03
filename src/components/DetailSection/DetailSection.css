@@ -1,0 +1,86 @@
+.DetailSection {
+  padding: 4rem 2rem;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.DetailSection__header {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+
+.DetailSection__title {
+  font-size: 4rem;
+  color: #3b82f6;
+  margin-bottom: 2rem;
+}
+
+.DetailSection__button {
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.DetailSection__button:hover {
+  background-color: #2563eb;
+}
+
+.DetailSection__content {
+  position: relative;
+  top: 100px;
+}
+
+.DetailSection__shapes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.DetailSection__triangle {
+  position: absolute;
+  position: absolute;
+  top: -396px;
+  left: -50px;
+}
+
+.DetailSection__arc {
+  position: absolute;
+  top: -396px;
+  right: 50px;
+}
+
+.DetailSection__dashboard {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.DetailSection__dashboardImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .DetailSection__title {
+    font-size: 2rem;
+  }
+
+  .DetailSection__shapes {
+    display: none;
+  }
+}

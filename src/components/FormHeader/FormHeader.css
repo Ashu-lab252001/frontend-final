@@ -1,0 +1,101 @@
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2e2e2e;
+  border-bottom: 2px solid #444;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.form-header__input {
+  background-color: #444;
+  border: 1px solid #555;
+  color: #ddd;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.form-header__nav {
+  display: flex;
+  gap: 10px;
+}
+
+.form-header__tab {
+  background-color: transparent;
+  border: none;
+  color: #bbb;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.form-header__tab.active {
+  color: #00aaff;
+  font-weight: bold;
+}
+
+.form-header__actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.form-header__action {
+  background-color: #444;
+  border: none;
+  color: #ddd;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-header__action:hover {
+  background-color: #555;
+}
+
+.form-header__action--share {
+  background-color: #0078d4;
+  color: #fff;
+}
+
+.form-header__action--share:hover {
+  background-color: #005ea6;
+}
+
+.form-header__action--save {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.form-header__action--save:hover {
+  background-color: #218838;
+}
+
+.form-header__action--close {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.form-header__action--close:hover {
+  background-color: #c82333;
+}
+
+.form-header__theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ddd;
+  font-size: 14px;
+}
+
+.theme-toggle-checkbox {
+  margin: 0 5px;
+  cursor: pointer;
+  transform: scale(1.2);
+}
