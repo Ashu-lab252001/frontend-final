@@ -1,6 +1,6 @@
 // config/api.js
  
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'backend-final-delta-lyart.vercel.app';
 
 const API_ENDPOINTS = {
   apiAuthRegisterPost: `${API_BASE_URL}/api/auth/register`,
