@@ -1,6 +1,6 @@
 // config/api.js
  
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const API_BASE_URL = 'https://backend-final-delta-lyart.vercel.app';
 
 const API_ENDPOINTS = {
   apiAuthRegisterPost: `${API_BASE_URL}/api/auth/register`,
